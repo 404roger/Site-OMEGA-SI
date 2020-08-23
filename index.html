@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Omega Soluções Industriais</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.css" rel="stylesheet">
+
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .brands {
+ width: 100%;
+ padding-top: 90px;
+ padding-bottom: 90px
+}
+
+.brands_slider_container {
+ height: 150px;
+ border: solid 1px #e8e8e8;
+ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+ padding-left: 97px;
+ padding-right: 97px
+}
+
+.brands_slider {
+ height: 100%;
+ margin-top: 50px
+}
+
+.brands_item {
+ height: 100%
+}
+
+.brands_item img {
+ max-width: 110%
+}
+
+.brands_nav {
+ position: absolute;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -moz-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ -o-transform: translateY(-50%);
+ transform: translateY(-50%);
+ padding: 5px;
+ cursor: pointer
+}
+
+.brands_nav i {
+ color: #e5e5e5;
+ -webkit-transition: all 200ms ease;
+ -moz-transition: all 200ms ease;
+ -ms-transition: all 200ms ease;
+ -o-transition: all 200ms ease;
+ transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+ color: #676767
+}
+
+.brands_prev {
+ left: 10px
+}
+
+.brands_next {
+ right: 10px
+}
+</style>
+<!-- Custom styles for this template -->
+<link href="./css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#"><img src="./img/teste.png" width="150px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size: 20px;">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./form.html">Orçamento</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/><img src="./img/teste1.jpg"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Titulo</h1>
+            <p style="font-size: 1.50rem;">Texto exemplo para ser completado.</p>
+          
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/><img src="./img/teste4.jpg"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Titulo</h1>
+            <p style="font-size: 1.50rem;">Texto exemplo para ser completado.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/><img src="./img/teste5.jpg"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>Titulo</h1>
+            <p style="font-size: 1.50rem;">Texto exemplo para ser completado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle p1" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140""></svg>
+        <h2>João</h2>
+        <p style="font-size: 1.15rem;">Estou muito grato pelo atendimento de ótima qualidade e rapidez, atendeu muito bem minhas necessidades, estou muito satisfeito!. Recomendo a todos.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle p2" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></svg>
+        <h2>Marcio</h2>
+        <p style="font-size: 1.15rem;">Estou muito grato pelo atendimento de ótima qualidade e rapidez, atendeu muito bem minhas necessidades, estou muito satisfeito!. Recomendo a todos.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle p3" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" ></svg>
+        <h2>Carlos</h2>
+        <p style="font-size: 1.15rem;">Estou muito grato pelo atendimento de ótima qualidade e rapidez, atendeu muito bem minhas necessidades, estou muito satisfeito!. Recomendo a todos.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Lorem ipsum dolor siPt<span class="text-muted">amet consectetur adipisicing elit.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae eos ad eaque dolorum necessitatibus quae! Ea voluptatem quos laborum iste velit nostrum voluptatum necessitatibus dicta, expedita obcaecati, aliquam in possimus!</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto persona1" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Lorem ipsum dolor sit<span class="text-muted">amet consectetur adipisicing elit.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae eos ad eaque dolorum necessitatibus quae! Ea voluptatem quos laborum iste velit nostrum voluptatum necessitatibus dicta, expedita obcaecati, aliquam in possimus!</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto persona2" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Lorem ipsum dolor sit<span class="text-muted">amet consectetur adipisicing elit.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae eos ad eaque dolorum necessitatibus quae! Ea voluptatem quos laborum iste velit nostrum voluptatum necessitatibus dicta, expedita obcaecati, aliquam in possimus!</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto persona3" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Lorem ipsum dolor sit<span class="text-muted">amet consectetur adipisicing elit.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae eos ad eaque dolorum necessitatibus quae! Ea voluptatem quos laborum iste velit nostrum voluptatum necessitatibus dicta, expedita obcaecati, aliquam in possimus!</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto persona2" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Entre em contato.</h2>
+        <p class="lead">Entre em contato com a Omega Soluções Industriais, basta escrever no campo ao lado.</p>
+      </div>
+      <div class="col-md-5">
+
+        <form class="needs-validation" id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/robattistoni@gmail.com" method="post" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="full-name">Nome Completo</label>
+              <input type="text" class="form-control" id="full-name" name="Nome" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Insira um nome válido!
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="telephone">Telefone</label>
+              <input type="telephone" class="form-control" id="telephone" name="Telefone" placeholder="(555) 5 5555-5555" value="" required>
+              <div class="invalid-feedback">
+                Insira um número válido!
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <label for="area">Área</label>
+              <select class="custom-select d-block" id="country" name="Área" required>
+                <option value="Choose" selected="" disabled="">Escolha...</option>
+                <option>Serviços de calibração de instrumentos e equipamentos.</option>
+                <option>Manutenção elétrica, mecânica, civil, pintura e utilidades em geral.</option>
+                <option>Automação industrial e residencial.</option>
+                <option>Sistemas de incêndio.</option>
+                <option>Sistemas de controle de acesso.</option>
+                <option>Sistemas de vigilância e CFTV.</option>
+                <option>Retrofit e reforma de equipamentos.</option>
+                <option>Componentes elétricos, mecânicos, pneumáticos e hidráulicos.</option>
+                <option>Outros assuntos.</option>
+              </select>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="Email" id="email-address" placeholder="email@email.com" required>
+            <div class="invalid-feedback">
+             Por favor insira um endereço de email válido.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Pedido</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1 message" rows="3" name="Pedido" id="message" placeholder="Escreva aqui seu pedido." required></textarea>
+          </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <!-- /END THE FEATURETTES -->
+    
+
+    <hr class="featurette-divider">
+    <div class="brands" >
+      <div class="container" style="margin-top: -15px;">
+          <div class="row">
+              <div class="col">
+                  <div class="brands_slider_container">
+                      <div class="owl-carousel owl-theme brands_slider">
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 200px; margin-top: 10px;"><img src="./Logos das empresas/1.jpg" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 160px;"><img src="./Logos das empresas/2.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 200px;"><img src="./Logos das empresas/3.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 200px;"><img src="./Logos das empresas/4.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 100px;"><img src="./Logos das empresas/5.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 0px;"><img src="./Logos das empresas/6.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 100px;"><img src="./Logos das empresas/7.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                              <div class="brands_item d-flex flex-column justify-content-center" style="width: 100px;"><img src="./Logos das empresas/8.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center" style="width: 200px;"><img src="./Logos das empresas/9.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center" style="width: 100px;"><img src="./Logos das empresas/0.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center" style="width: 200px;"><img src="./Logos das empresas/10.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center" style="width: 200px;"><img src="./Logos das empresas/11.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center" style="width: 200px;"><img src="./Logos das empresas/12.JPG" alt=""></div>
+                          </div>
+                          <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center" style="width: 100px; margin-top: -5px;"><img src="./Logos das empresas/13.JPG" alt=""></div>
+                          </div>
+                      </div> <!-- Brands Slider Navigation -->
+                      <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
+                      <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+    <footer class="container py-5" style="margin-top: 5px;">
+
+      <div class="row" style="font-size: 1.1rem;">
+        <div class="col-12 col-md">
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M0 0v24h24v-24h-24zm13.39 19.351c-5.133.98-9.647-3.509-8.722-8.673-2.379-3.868 2.075-8.393 5.956-6.02 5.091-.955 9.606 3.476 8.702 8.653 2.392 3.866-2.049 8.397-5.936 6.04zm2.893-5.468c0 2.026-1.615 3.354-4.026 3.354-2.121 0-4.252-.965-4.242-2.627.003-.501.376-.961.872-.961 1.249 0 1.237 1.863 3.225 1.863 1.396 0 1.872-.764 1.872-1.296 0-1.924-6.029-.745-6.029-4.362 0-1.958 1.602-3.309 4.12-3.161 2.401.142 3.809 1.202 3.944 2.193.067.647-.361 1.151-1.105 1.151-1.086 0-1.197-1.454-3.067-1.454-.844 0-1.556.352-1.556 1.116-.001 1.597 5.992.67 5.992 4.184z"/></svg></a>
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg></a>
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z"/></svg></a>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Quem somos</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">História</a></li>
+            <li><a class="text-muted" href="#">Empresa</a></li>
+            <li><a class="text-muted" href="#">Equipe</a></li>
+            <li><a class="text-muted" href="#">Parceiros</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Serviços</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Serviços prestados</a></li>
+            <li><a class="text-muted" href="#">Portfólio</a></li>
+            <li><a class="text-muted" href="#">Áreas atendidas</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Contatos</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Orçamento</a></li>
+            <li><a class="text-muted" href="#">E-mail</a></li>
+            <li><a class="text-muted" href="#">Redes sociais</a></li>
+            <li><a class="text-muted" href="#">Endereço</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="float-right"><a href="#">Volte ao topo</a></p>
+    </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="./js/vendor/jquery.slim.min.js"><\/script>')</script><script src="./js/bootstrap.bundle.js"></script>
+      <script>
+        $(document).ready(function(){
+        
+        if($('.brands_slider').length)
+        {
+        var brandsSlider = $('.brands_slider');
+        
+        brandsSlider.owlCarousel(
+        {
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        nav:false,
+        dots:false,
+        autoWidth:true,
+        items:8,
+        margin:42
+        });
+        
+        if($('.brands_prev').length)
+        {
+        var prev = $('.brands_prev');
+        prev.on('click', function()
+        {
+        brandsSlider.trigger('prev.owl.carousel');
+        });
+        }
+        
+        if($('.brands_next').length)
+        {
+        var next = $('.brands_next');
+        next.on('click', function()
+        {
+        brandsSlider.trigger('next.owl.carousel');
+        });
+        }
+        }
+        
+        
+        });
+        
+            </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    
+    </body>
+</html>
